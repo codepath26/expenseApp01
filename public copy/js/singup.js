@@ -15,7 +15,8 @@ e.preventDefault();
   }
   try
   {
-    let user = await axios.post(`http://localhost:3000/user/signup` , obj)
+    let user = await axios.post(`http://54.172.219.179
+:3000/user/signup` , obj)
     console.log(user.ispremiumuser)
     localStorage.setItem('ispremium' ,user.ispremiumuser)
      username.value  = "",

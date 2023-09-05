@@ -33,7 +33,8 @@ exports.forgotpassword = async (req, res) => {
         .sendTransacEmail({
           sender: { email: "parththakor2610@gmail.com", name: "Parth" },
           subject: "To forgote you passoword",
-          htmlContent: `<!DOCTYPE html><html><body><h1>My First Heading</h1><p>My first paragraph.</p><a href="http://localhost:3000/password/resetpassword/${id}">Reset password</a></body></html>`,
+          htmlContent: `<!DOCTYPE html><html><body><h1>My First Heading</h1><p>My first paragraph.</p><a href="http://54.172.219.179
+:3000/password/resetpassword/${id}">Reset password</a></body></html>`,
 
           to: [
             {
